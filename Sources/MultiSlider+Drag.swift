@@ -5,7 +5,7 @@
 //  Created by Yonat Sharon on 25.10.2018.
 //
 
-extension MultiSlider {
+extension MultiSlider: UIGestureRecognizerDelegate {
     @objc open func didDrag(_ panGesture: UIPanGestureRecognizer) {
         self.equalViewIndexes.removeAll()
         
