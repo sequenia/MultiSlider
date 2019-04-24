@@ -156,7 +156,7 @@ open class MultiSlider: UIControl {
     }()
 
     // MARK: - Subviews
-
+    var equalViewIndexes: [Int] = []
     @objc open var thumbViews: [UIImageView] = []
     @objc open var valueLabels: [UITextField] = [] // UILabels are a pain to layout, text fields look nice as-is.
     @objc open var trackView = UIView()
